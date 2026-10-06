@@ -1,0 +1,479 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AWS Services | Cloud Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="top-header">
+
+        <div class="brand">
+
+            <div class="brand-icon">☁️</div>
+
+            <div>
+                <h1>Cloud Student Portal</h1>
+                <p>AWS Cloud-Based Student Management System</p>
+            </div>
+
+        </div>
+
+        <div class="header-status">
+            <span class="status-dot"></span>
+            System Operational
+        </div>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <div class="nav-logo">
+                CSP
+            </div>
+
+            <div class="nav-links">
+
+                <a href="index.html">🏠 Home</a>
+
+                <a href="courses.html">📚 Courses</a>
+
+                <a href="aws.html" class="active">☁️ AWS</a>
+
+                <a href="contact.html">📞 Contact</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="aws-hero">
+
+        <div class="aws-hero-content">
+
+            <span class="hero-badge">
+                AWS CLOUD ARCHITECTURE
+            </span>
+
+            <h2>
+                Powered by
+                <span>AWS Serverless Technology</span>
+            </h2>
+
+            <p>
+                This student portal uses Amazon Web Services to provide
+                scalable, reliable and serverless cloud infrastructure.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- AWS SERVICES -->
+    <section class="dashboard-section">
+
+        <div class="section-title">
+
+            <div>
+
+                <span class="section-label">
+                    CLOUD INFRASTRUCTURE
+                </span>
+
+                <h2>
+                    AWS Services Used
+                </h2>
+
+            </div>
+
+            <span>
+                6 Services
+            </span>
+
+        </div>
+
+
+        <div class="aws-service-grid">
+
+
+            <!-- S3 -->
+            <div class="aws-service-card">
+
+                <div class="aws-service-icon blue">
+                    🪣
+                </div>
+
+                <h3>
+                    Amazon S3
+                </h3>
+
+                <p>
+                    Stores the static website files including HTML,
+                    CSS and JavaScript.
+                </p>
+
+                <div class="service-tag">
+                    Storage
+                </div>
+
+            </div>
+
+
+            <!-- CLOUDFRONT -->
+            <div class="aws-service-card">
+
+                <div class="aws-service-icon purple">
+                    🌐
+                </div>
+
+                <h3>
+                    Amazon CloudFront
+                </h3>
+
+                <p>
+                    Delivers the website globally through a
+                    content delivery network.
+                </p>
+
+                <div class="service-tag">
+                    CDN
+                </div>
+
+            </div>
+
+
+            <!-- API GATEWAY -->
+            <div class="aws-service-card">
+
+                <div class="aws-service-icon green">
+                    🔗
+                </div>
+
+                <h3>
+                    API Gateway
+                </h3>
+
+                <p>
+                    Provides the API endpoint used by the frontend
+                    to request student data.
+                </p>
+
+                <div class="service-tag">
+                    API
+                </div>
+
+            </div>
+
+
+            <!-- LAMBDA -->
+            <div class="aws-service-card">
+
+                <div class="aws-service-icon orange">
+                    ⚡
+                </div>
+
+                <h3>
+                    AWS Lambda
+                </h3>
+
+                <p>
+                    Runs backend Python code without managing
+                    servers.
+                </p>
+
+                <div class="service-tag">
+                    Serverless
+                </div>
+
+            </div>
+
+
+            <!-- DYNAMODB -->
+            <div class="aws-service-card">
+
+                <div class="aws-service-icon red">
+                    🗄️
+                </div>
+
+                <h3>
+                    Amazon DynamoDB
+                </h3>
+
+                <p>
+                    Stores student information using a scalable
+                    NoSQL database.
+                </p>
+
+                <div class="service-tag">
+                    Database
+                </div>
+
+            </div>
+
+
+            <!-- IAM -->
+            <div class="aws-service-card">
+
+                <div class="aws-service-icon yellow">
+                    🔐
+                </div>
+
+                <h3>
+                    AWS IAM
+                </h3>
+
+                <p>
+                    Controls permissions and allows Lambda to
+                    securely access DynamoDB.
+                </p>
+
+                <div class="service-tag">
+                    Security
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ARCHITECTURE -->
+    <section class="dashboard-section">
+
+        <div class="section-title">
+
+            <div>
+
+                <span class="section-label">
+                    SYSTEM DESIGN
+                </span>
+
+                <h2>
+                    Application Architecture
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="architecture-box">
+
+
+            <div class="architecture-step">
+
+                <div class="architecture-icon">
+                    👤
+                </div>
+
+                <h3>
+                    User
+                </h3>
+
+                <p>
+                    Opens the Cloud Student Portal
+                </p>
+
+            </div>
+
+
+            <div class="architecture-arrow">
+                →
+            </div>
+
+
+            <div class="architecture-step">
+
+                <div class="architecture-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    CloudFront
+                </h3>
+
+                <p>
+                    Delivers website content
+                </p>
+
+            </div>
+
+
+            <div class="architecture-arrow">
+                →
+            </div>
+
+
+            <div class="architecture-step">
+
+                <div class="architecture-icon">
+                    🔗
+                </div>
+
+                <h3>
+                    API Gateway
+                </h3>
+
+                <p>
+                    Receives API request
+                </p>
+
+            </div>
+
+
+            <div class="architecture-arrow">
+                →
+            </div>
+
+
+            <div class="architecture-step">
+
+                <div class="architecture-icon">
+                    ⚡
+                </div>
+
+                <h3>
+                    Lambda
+                </h3>
+
+                <p>
+                    Processes request
+                </p>
+
+            </div>
+
+
+            <div class="architecture-arrow">
+                →
+            </div>
+
+
+            <div class="architecture-step">
+
+                <div class="architecture-icon">
+                    🗄️
+                </div>
+
+                <h3>
+                    DynamoDB
+                </h3>
+
+                <p>
+                    Returns student data
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- DATA FLOW -->
+    <section class="dashboard-section">
+
+        <div class="section-title">
+
+            <div>
+
+                <span class="section-label">
+                    REQUEST FLOW
+                </span>
+
+                <h2>
+                    How Student Data Is Retrieved
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="data-flow">
+
+            <div>
+                <strong>01</strong>
+                <span>User opens dashboard</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span>Frontend sends API request</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span>API Gateway invokes Lambda</span>
+            </div>
+
+            <div>
+                <strong>04</strong>
+                <span>Lambda scans DynamoDB</span>
+            </div>
+
+            <div>
+                <strong>05</strong>
+                <span>Student data returned to frontend</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>
+                    ☁️ Cloud Student Portal
+                </h3>
+
+                <p>
+                    AWS Serverless Cloud Project
+                </p>
+
+            </div>
+
+            <div>
+
+                <p>
+                    Built with AWS Cloud Services
+                </p>
+
+                <p>
+                    © 2026 Cloud Student Portal
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

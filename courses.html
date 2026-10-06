@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courses | Cloud Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<style>
+.course-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="top-header">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                ☁️
+            </div>
+
+            <div>
+                <h1>Cloud Student Portal</h1>
+
+                <p>
+                    AWS Cloud-Based Student Management System
+                </p>
+            </div>
+
+        </div>
+
+        <div class="header-status">
+
+            <span class="status-dot"></span>
+
+            System Operational
+
+        </div>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <div class="nav-logo">
+                CSP
+            </div>
+
+            <div class="nav-links">
+
+                <a href="index.html">
+                    🏠 Home
+                </a>
+
+                <a href="courses.html" class="active">
+                    📚 Courses
+                </a>
+
+                <a href="aws.html">
+                    ☁️ AWS
+                </a>
+
+                <a href="contact.html">
+                    📞 Contact
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="courses-hero">
+
+        <div class="courses-hero-content">
+
+            <span class="hero-badge">
+                LEARNING CENTER
+            </span>
+
+            <h2>
+                Build Your
+                <span>Cloud Skills</span>
+            </h2>
+
+            <p>
+                Learn cloud computing, security and DevOps
+                through practical technology-focused courses.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- COURSE OVERVIEW -->
+    <section class="dashboard-section">
+
+        <div class="section-title">
+
+            <div>
+
+                <span class="section-label">
+                    COURSE CATALOG
+                </span>
+
+                <h2>
+                    Available Courses
+                </h2>
+
+            </div>
+
+            <span id="courseCount">
+                3 Courses
+            </span>
+
+        </div>
+
+
+        <!-- COURSE CARDS -->
+        <div class="course-grid">
+
+
+            <!-- AWS CLOUD -->
+            <div class="course-card">
+
+                <div class="course-top">
+
+                    <div class="course-icon blue">
+                        ☁️
+                    </div>
+
+                    <span class="level beginner">
+                        Beginner
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    AWS Cloud
+                </h3>
+
+                <p>
+                    Learn the fundamentals of cloud computing
+                    and Amazon Web Services.
+                </p>
+
+
+                <div class="course-info">
+
+                    <div>
+                        <span>Duration</span>
+                        <strong>8 Weeks</strong>
+                    </div>
+
+                    <div>
+                        <span>Students</span>
+                        <strong>32</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="course-topics">
+
+                    <span>EC2</span>
+                    <span>S3</span>
+                    <span>Lambda</span>
+                    <span>DynamoDB</span>
+
+                </div>
+
+
+                <a href="aws-cloud.html" class="course-btn">Explore Course →</a>
+
+            </div>
+
+
+            <!-- CLOUD SECURITY -->
+            <div class="course-card">
+
+                <div class="course-top">
+
+                    <div class="course-icon purple">
+                        🔐
+                    </div>
+
+                    <span class="level intermediate">
+                        Intermediate
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Cloud Security
+                </h3>
+
+                <p>
+                    Understand identity management, access
+                    control and cloud security practices.
+                </p>
+
+
+                <div class="course-info">
+
+                    <div>
+                        <span>Duration</span>
+                        <strong>6 Weeks</strong>
+                    </div>
+
+                    <div>
+                        <span>Students</span>
+                        <strong>24</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="course-topics">
+
+                    <span>IAM</span>
+                    <span>MFA</span>
+                    <span>Policies</span>
+                    <span>Security</span>
+
+                </div>
+
+
+                <a href="cloud-security.html" class="course-btn">Explore Course →</a>
+
+            </div>
+
+
+            <!-- DEVOPS -->
+            <div class="course-card">
+
+                <div class="course-top">
+
+                    <div class="course-icon orange">
+                        ⚙️
+                    </div>
+
+                    <span class="level intermediate">
+                        Intermediate
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    DevOps
+                </h3>
+
+                <p>
+                    Learn deployment, automation, CI/CD,
+                    containers and monitoring.
+                </p>
+
+
+                <div class="course-info">
+
+                    <div>
+                        <span>Duration</span>
+                        <strong>10 Weeks</strong>
+                    </div>
+
+                    <div>
+                        <span>Students</span>
+                        <strong>28</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="course-topics">
+
+                    <span>CI/CD</span>
+                    <span>Docker</span>
+                    <span>ECS</span>
+                    <span>CloudWatch</span>
+
+                </div>
+
+
+                <a href="devops.html" class="course-btn">Explore Course →</a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- LEARNING PATH -->
+    <section class="dashboard-section">
+
+        <div class="section-title">
+
+            <div>
+
+                <span class="section-label">
+                    LEARNING PATH
+                </span>
+
+                <h2>
+                    Recommended Cloud Journey
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="learning-path">
+
+            <div class="path-step">
+
+                <div class="path-number">
+                    01
+                </div>
+
+                <div>
+
+                    <h3>
+                        Learn AWS Fundamentals
+                    </h3>
+
+                    <p>
+                        Start with cloud concepts and
+                        core AWS services.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="path-line"></div>
+
+
+            <div class="path-step">
+
+                <div class="path-number">
+                    02
+                </div>
+
+                <div>
+
+                    <h3>
+                        Understand Cloud Security
+                    </h3>
+
+                    <p>
+                        Learn IAM, authentication and
+                        secure cloud access.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="path-line"></div>
+
+
+            <div class="path-step">
+
+                <div class="path-number">
+                    03
+                </div>
+
+                <div>
+
+                    <h3>
+                        Move to DevOps
+                    </h3>
+
+                    <p>
+                        Learn automation, deployment and
+                        continuous integration.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>
+                    ☁️ Cloud Student Portal
+                </h3>
+
+                <p>
+                    AWS Serverless Cloud Project
+                </p>
+
+            </div>
+
+            <div>
+
+                <p>
+                    Built with AWS Cloud Services
+                </p>
+
+                <p>
+                    © 2026 Cloud Student Portal
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
